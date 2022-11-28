@@ -29,3 +29,4 @@ wincertstore==0.2
 pandas
 numpy
 dash_bootstrap_components 
+openpyxl
