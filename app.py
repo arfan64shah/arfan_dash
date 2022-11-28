@@ -45,7 +45,7 @@ number_of_calls_by_state_ratio = (number_of_calls_by_state_success / number_of_c
 success_time_out = dataset[dataset["Success"] == 1].groupby("Time_Period")["Success"].count().sort_index()
 
 #initialize app
-app = dash.Dash(__name__, server = server, external_stylesheets = [dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP])
+app = dash.Dash(__name__)
 server = app.server
 
 #all the components
