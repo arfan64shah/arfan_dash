@@ -240,4 +240,4 @@ app.layout = html.Div([
 ])
 
 #run app
-app.run_server(port = 4050)
+app.run_server()
